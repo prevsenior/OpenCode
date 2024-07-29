@@ -22,7 +22,7 @@ def generate_employee_file(filename):
             f.write(','.join([name, birthdate, sex, phonenumber, email, emp_id, hiredate, status]) + '\n')
 
 # Gerar os arquivos CSV
-for i in range(120):
+for i in range(5):
     filename = f'employee_data_{i}.csv'
     generate_employee_file(filename)
 
